@@ -9,7 +9,7 @@ function numeros(num){
 
 function limpar() {
 
-    document.getElementById('res').innerHTML = ' '
+    document.getElementById('res').innerHTML = ''
 }
     // Quando acionada a função limpar(), que é o botão reset, dentro da div res, o innerHTML irá limpar a div res que é o nosso visor, as aspás vazias limpam a div.
 
@@ -17,7 +17,7 @@ function limpar() {
 
     var res = document.getElementById('res').innerHTML
     document.getElementById('res').innerHTML = res.substring(0, res.length -1)
-    //neste comando acima, quando acionada a função del apagará um caractere por vez. 
+    //neste comando acima, quando acionada a função del, ela apagará um caractere por vez. 
 }
 function calcular() {
     var res = document.getElementById('res').innerHTML
