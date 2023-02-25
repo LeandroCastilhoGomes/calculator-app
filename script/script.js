@@ -7,8 +7,8 @@ function numeros(num){
     console.log(numeros)
 }
 
-function clear() {
-    document.getElementById('res').innerHTML = " "
+function limpar() {
+    document.getElementById('res').innerHTML = ' '
 }
 
 
