@@ -1,11 +1,14 @@
-'use strict'
-const res = document.querySelector('#res')
-const numeros = document.querySelectorAll('[id*=tlc]')
-var opercao = document.querySelector('.oper')
-const atualizarDisplay = (texto) => {
-    res.textContend += texto
+function numeros(num){
+    // var res = document.querySelector('#res')
+    var numeros = document.getElementById('res').innerHTML
+    document.getElementById('res').innerHTML = numeros + num
+
+
+    console.log(numeros)
 }
 
-const inserirNumero = (evento) => atualizarDisplay(evento.target.textContend)
+function clear() {
+    document.getElementById('res').innerHTML = " "
+}
 
-numeros.forEach (numero => numero.addEventListener('click', inserirNumero))
+
