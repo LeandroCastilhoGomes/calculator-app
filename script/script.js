@@ -4,7 +4,6 @@ function numeros(num){
     document.getElementById('res').innerHTML = numeros + num
     // dentro da div res, que é o visor da calculadora, quando acionada a função numeros com o parameto num, irá aparecer o os numeros que estão dentro de cada parametro num que corresponde ao numero colocado dentro do parametro, que é o numero que será apertado no teclado da calculadora.
 
-    console.log(numeros)
 }
 
 function limpar() {
@@ -29,3 +28,11 @@ function calcular() {
 
     //Na função calcular que está associada ao nosso botão de igual, colocamos um if e um else, que siginifica, se(if) dentro da div res estiver algo, como estamos trabalhando só com numeros, usando a função eval a gente já consegue fazer os cálculos e dar o resultado
 }
+
+    var tema2 = document.getElementById('tema2')
+
+function selTema() {
+    const cortema = document.getElementById('tema2')
+    cortema.classList.toggle('active')
+}
+    tema2.addEventListener('click', selTema)
