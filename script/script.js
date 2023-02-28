@@ -29,10 +29,3 @@ function calcular() {
     //Na função calcular que está associada ao nosso botão de igual, colocamos um if e um else, que siginifica, se(if) dentro da div res estiver algo, como estamos trabalhando só com numeros, usando a função eval a gente já consegue fazer os cálculos e dar o resultado
 }
 
-    var tema2 = document.getElementById('tema2')
-
-function selTema() {
-    const cortema = document.getElementById('tema2')
-    cortema.classList.toggle('active')
-}
-    tema2.addEventListener('click', selTema)
