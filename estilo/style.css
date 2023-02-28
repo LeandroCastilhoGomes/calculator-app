@@ -116,6 +116,8 @@ header > div > p {
 
 .radio:checked:before {
     opacity: 1;
+    transition: 0.5s;
+
 }
 
 main {
